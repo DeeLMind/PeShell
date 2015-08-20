@@ -4,10 +4,10 @@
 
 void main(int argc , char* argv[])
 {
-//  YLs加壳工具
+
 	UpShell up1;
-	up1.LoadFile("C:\\Users\\Administrator\\Desktop\\PEview - 副本.exe");
-	up1.LoadShell("C:\\Users\\Administrator\\Desktop\\MyShell.exe");
+	up1.LoadFile("C:\\xxx");		// file path 
+	up1.LoadShell("C:\\aaa");		// shell path
 	up1.StartUpShell();
 	
 
